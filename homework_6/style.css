@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.header {
+    background-color: #222222;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin-right: 31px;
+}
+
+.header__left_side {
+    margin: 19px 0px 18px 231px;
+}
+
+.header__right_side {
+    margin: 28px 230px 18px 0px;
+}
+
+.header__profile_logo {
+    margin: 0px 33px;
+}
+
+.preview {
+    height: 764px;
+    background-color: #F1E4E6;
+    display: flex;
+    margin-bottom: 65px;
+}
+
+.man__photo_preview {
+    margin-left: 230px;
+    width: 570px;
+    height: 764px;
+}
+
+.preview__THE_BRAND {
+    font-size: 48px;
+    font-weight: 700;
+    color: #222222;
+}
+
+.preview__OF_LUX {
+    font-size: 32px;
+    font-weight: 600;
+    color: #222222;
+}
+
+.preview__OF_LUX span {
+    color: #F16D7F;
+}
+
+.preview__text {
+    display: flex;
+    gap: 16px;
+    margin: 289px 331px 381px 64px;
+}
+
+.center__items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 96px;
+}
+
+.first_item {
+    margin: 0px 30px 30px 0px;
+}
+
+.last_item {
+    margin-bottom: 30px;
+}
+
+.items {
+    width: 360px;
+    height: 260px;
+    margin: 0px 30px 30px 0px;
+}
+
+.bit__item {
+    width: 1140px;
+    height: 180px;
+}
+
+
+.text__items {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+    color: #222222;
+    font-size: 30;
+}
+
+.text__items__shop {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+    color: #9F9F9F;
+    font-size: 14;
+}
+
+.footer__items__all {
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+.footer__item {
+    background-color: #F8F8F8;
+    width: 360px;
+    height: 587px;
+}
+
+.footer__text__collection {
+    margin: 24px 29px 24px 16px;
+}
+
+.footer__name__collection {
+    font-size: 13px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.footer__description__collection {
+    color: #5D5D5D;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
+.footer__price__collection {
+    font-size: 16px;
+    color: #F16D7F;
+    font-weight: 400;
+}
+
+.footer__button {
+    border-radius: 0px;
+    border: solid 1px #FF6A6A;
+    color: #FF6A6A;
+    width: 212px;
+    height: 48px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer__button__class {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
